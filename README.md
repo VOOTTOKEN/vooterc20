@@ -1,1 +1,2 @@
-# vooterc20
+# Voot-token
+Contract for the voot token

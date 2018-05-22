@@ -1,0 +1,29 @@
+{
+  "name": "voot-token",
+  "version": "1.0.0",
+  "description": "Contract for the voot token",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "flatten": "sol-merger './contracts/*.sol' ./flat"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VOOTTOKEN/vooterc20.git"
+  },
+  "author": "Cqurelab Pvt Ltd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VOOTTOKEN/vooterc20/issues"
+  },
+  "homepage": "https://github.com/VOOTTOKEN/vooterc20#readme",
+  "dependencies": {
+    "bignumber.js": "^7.1.0",
+    "sol-merger": "^0.1.2",
+    "truffle-hdwallet-provider": "0.0.5",
+    "zeppelin-solidity": "^1.9.0"
+  }
+}
